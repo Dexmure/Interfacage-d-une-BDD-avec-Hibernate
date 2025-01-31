@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Configuration de la connexion MySQL -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/Azul</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">1234</property>
+
+        <!-- Configuration de Hibernate -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.c3p0.min_size">5</property>
+		<property name="hibernate.c3p0.max_size">20</property>
+		<property name="hibernate.c3p0.timeout">300</property>
+		<property name="hibernate.c3p0.max_statements">50</property>
+		<property name="hibernate.c3p0.idle_test_period">3000</property>
+		        
+
+	
+	    
+        <!-- Liste des classes mappées -->
+        <mapping class="com.good.util.Adresse"/>
+        <mapping class="com.good.util.Avion"/>
+        <mapping class="com.good.util.AvionTest"/>
+        <mapping class="com.good.util.Employe"/>
+        <mapping class="com.good.util.Examen"/>
+        <mapping class="com.good.util.Examination"/>
+        <mapping class="com.good.util.ExaminationId"/>
+        <mapping class="com.good.util.Pilote"/>
+        <mapping class="com.good.util.Piloter"/>
+        <mapping class="com.good.util.PiloterId"/>
+        <mapping class="com.good.util.Qualification"/>
+        <mapping class="com.good.util.QualificationId"/>
+        <mapping class="com.good.util.Reparation"/>
+        <mapping class="com.good.util.ReparationId"/>
+        <mapping class="com.good.util.Specialisation"/>
+        <mapping class="com.good.util.SpecialisationId"/>
+        <mapping class="com.good.util.Technicien"/>
+        <mapping class="com.good.util.Test"/>
+        <mapping class="com.good.util.Type"/>
+        
+        
+        
+    </session-factory>
+</hibernate-configuration>
