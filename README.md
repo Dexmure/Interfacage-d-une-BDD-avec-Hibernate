@@ -30,6 +30,7 @@ Le projet sous Eclipse utilise **Java, Hibernate, Maeven et MySQL** pour interag
 
 ## 🔧 Installation et Exécution
 Ouverture du dossier AVIATION avec eclipse
+le nom de la base de donnees a creer avec SQL Server est "aviation_db" et le mot de passe est "password"
 
 ### **1️⃣ Prérequis**
 - Java JDK 21  
