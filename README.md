@@ -19,6 +19,22 @@ Le projet sous Eclipse utilise **Java, Hibernate, Maeven et MySQL** pour interag
  
 
 ---
+## 📌 Captures d’écran
+
+### 📊 Schéma de la base de données
+![Interface Application](Captures/schema-bdd.png)
+
+
+### 📋Menu de l'application
+![Schéma BDD](Captures/menu-console.png)
+
+### 🖥️ Resultat du choix
+
+![Console](Captures/resultat.png)
+
+
+
+---
 
 ## 🏗️ Architecture du projet
 
