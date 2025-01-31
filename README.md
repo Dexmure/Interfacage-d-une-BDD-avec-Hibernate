@@ -39,8 +39,7 @@ Ouverture du dossier AVIATION avec eclipse
 
 ## Contributeurs
 
-Merci à tous ceux qui ont contribué à ce projet ! 🎉
+Merci à tous ceux qui m'ont aidé a realiser ce projet ! 🎉
 
-- [MOHAMED MEHRAZI](https://github.com/Dexmure)
 - [SAMUEL SIMARD](https://github.com/SamuelSimard24)
 - [Maxim Laurendeau](https://github.com/LAUM0026)
