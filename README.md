@@ -9,12 +9,13 @@ Le projet sous Eclipse utilise **Java, Hibernate, Maeven et MySQL** pour interag
 ---
 
 ## 🚀 Fonctionnalités
-✔️ Menu dynamique pour gerer les entités
+
 ✔️ Connexion et gestion des entités via Hibernate  
 ✔️ Opérations CRUD sur les vols, avoins et types  
 ✔️ Mapping des relations entre les tables (One-to-Many, Many-to-One)  
 ✔️ Gestion des transactions et validation des données  
 ✔️ Fichiers de configuration `hibernate.cfg.xml` optimisés  
+✔️ Menu dynamique pour gerer les entités    
  
 
 ---
